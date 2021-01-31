@@ -1,0 +1,17 @@
+.about {
+  padding: 5%;
+  justify-content: center;
+  text-align: center;
+}
+.cardsss {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .cardsss {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+}

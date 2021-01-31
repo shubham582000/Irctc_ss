@@ -1,0 +1,13 @@
+.cro_img {
+  object-fit: contain;
+  width: 100%;
+  height: 300px;
+}
+.cro {
+  margin-bottom: 20px;
+}
+.carousel-item {
+  -webkit-transition: -webkit-transform 0.1s ease-in-out !important;
+  -o-transition: -o-transform 2s ease-in-out !important;
+  transition: transform 2s ease-in-out !important;
+}

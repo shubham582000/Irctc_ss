@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+  .hello {
+    width: 50vh;
+    margin: 2%;
+    height: 100vh;
+    font-size: xx-small;
+  }
+  .field {
+    width: 20vh;
+  }
+  .divi {
+    width: 90% !important;
+  }
+}

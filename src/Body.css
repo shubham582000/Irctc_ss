@@ -1,0 +1,26 @@
+.body {
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.division {
+  justify-content: center !important;
+  align-items: center !important;
+}
+.box {
+  align-items: center !important;
+  object-fit: contain !important;
+  padding-left: 2px;
+  text-align: center;
+  justify-content: center !important;
+}
+.boxes {
+  padding-left: 7%;
+  justify-content: center !important;
+  align-items: center !important;
+}
+@media only screen and (max-width: 600px) {
+  .division {
+    margin-left: 3%;
+  }
+}

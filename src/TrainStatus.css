@@ -1,0 +1,50 @@
+.status__block {
+  width: 15rem;
+  height: 12rem;
+  border: solid 2px black;
+}
+.TrainStatus {
+  margin: 2%;
+}
+.status__title {
+  margin: 10px;
+}
+.inputField input {
+  width: 90%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 4%;
+  border: solid black 2px;
+}
+@media only screen and (max-width: 600px) {
+}
+
+.papa {
+  -webkit-animation: seconds 1s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 5s;
+  animation: seconds 1s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+  position: relative;
+}
+@-webkit-keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px;
+    position: absolute;
+  }
+}
+@keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px;
+    position: absolute;
+  }
+}

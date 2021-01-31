@@ -1,0 +1,17 @@
+.imgbaba {
+  width: 250px !important;
+  height: 200px !important;
+  padding: 10px;
+  object-fit: contain;
+}
+@media only screen and (max-width: 600px) {
+  .aboutCard {
+    margin: 2px;
+  }
+  .imgbaba {
+    width: 200px !important;
+    height: 150px !important;
+    padding: 10px;
+    object-fit: contain;
+  }
+}
